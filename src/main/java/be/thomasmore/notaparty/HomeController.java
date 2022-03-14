@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    @Value("${specialnumber:1234}")
+    @Value("1234")
     private int specialNumber;
 
     @GetMapping("/")
